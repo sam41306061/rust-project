@@ -1,8 +1,8 @@
-use std::io::stdin;
 fn main() {
-    let mut message: String = String::new(); //create a mutable string variable (empty)
-    println!("Enter your message");
-
-    stdin().read_line(&mut message ).unwrap();
-    println!("message is {}", message);
+    let foo: Vec<_> = vec![1,2,3]
+    .iter() // create the iterator to go over the elements in the array
+    .map(|x| x + 1) // do the plust one'ings
+    .collect(); // take the iterator and put it somewhere
+    
+    println!("{:?}", foo);
 }

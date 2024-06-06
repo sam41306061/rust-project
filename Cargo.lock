@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "MyRustApp"
+name = "frnt_end_masters_rust-intro"
 version = "0.1.0"
